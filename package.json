@@ -11,6 +11,10 @@
     "restify": "^8.5.1",
     "restify-cors-middleware": "^1.1.1"
   },
+ "peerDependencies": {
+
+    "restify": "2.6.x - 8.x.x"
+  }, 
   "scripts": {
     "start": "node src/index.js"
   }
